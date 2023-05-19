@@ -1,6 +1,5 @@
 Description: >
-  Sabbir Hossain / Udacity Cloud DevOps
-  Capstone project for Cloud DevOps Engineering Nanodegree
+  Nguyen Minh Khoa - Udacity DevOps Capstone Project
 
 Parameters:
   EnvironmentName:
