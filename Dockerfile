@@ -13,7 +13,7 @@ COPY ./.nginx/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /usr/share/nginx/html/*
 
 COPY --from=ui-build /usr/src/app/my-app/build/ /usr/share/nginx/html
-
+this line will cause linting error
 EXPOSE 4200 80
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
