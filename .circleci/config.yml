@@ -122,7 +122,7 @@ workflows:
       - deploy-application:
           cluster-name: eks-deployment-${CIRCLE_WORKFLOW_ID:0:7}
           aws-region: $AWS_DEFAULT_REGION
-          docker-image-name: "${AWS_ECR_REGISTRY_ID}.dkr.ecr.us-east-1.amazonaws.com/capstone_app:v1"
+          docker-image-name: "${AWS_ECR_REGISTRY_ID}.dkr.ecr.us-east-1.amazonaws.com/capstone"
           requires:
             - aws-eks/create-cluster
       - test-application:

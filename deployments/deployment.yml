@@ -18,7 +18,7 @@ spec:
         app: nginx-webapp
     spec:
       containers:
-      - image: 193429901127.dkr.ecr.us-east-1.amazonaws.com/capstone_app:v1
+      - image: 478254381753.dkr.ecr.us-east-1.amazonaws.com/capstone
         name: webapp
         imagePullPolicy: Always
         resources: {}
