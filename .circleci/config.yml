@@ -116,7 +116,7 @@ workflows:
             [upload-docker]
       - aws-eks/create-cluster:
           cluster-name: eks-deployment-${CIRCLE_WORKFLOW_ID:0:7}
-          aws-region: us-east-1
+          aws-region: us-east-1a
           requires:
             - build-and-push-image-ecr
       - deploy-application:
