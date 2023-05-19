@@ -26,8 +26,6 @@ spec:
           - containerPort: 80 
 status: {}
 
----
-
 apiVersion: v1
 kind: Service
 metadata:

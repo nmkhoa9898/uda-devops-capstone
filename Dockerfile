@@ -14,7 +14,7 @@ RUN rm -rf /usr/share/nginx/html/*
 
 # Copy from the stahg 1
 COPY --from=ui-build /usr/src/app/my-app/build/ /usr/share/nginx/html
-this is some error
+
 EXPOSE 4200 80
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
