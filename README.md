@@ -1,1 +1,2 @@
 # uda-devops-capstone
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nmkhoa9898/uda-devops-capstone/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nmkhoa9898/uda-devops-capstone/tree/main)

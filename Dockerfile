@@ -12,7 +12,6 @@ COPY ./.nginx/nginx.conf /etc/nginx/nginx.conf
 ## Remove default nginx index page
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy from the stahg 1
 COPY --from=ui-build /usr/src/app/my-app/build/ /usr/share/nginx/html
 
 EXPOSE 4200 80
