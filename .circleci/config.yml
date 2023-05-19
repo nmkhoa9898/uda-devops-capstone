@@ -97,7 +97,7 @@ jobs:
             kubectl get pods
             kubectl get services
 workflows:
-  capstone-workflow:
+  default-workflow:
     jobs:
       - run-lint
       - upload-docker:
@@ -105,7 +105,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - aws-ecr/build-and-push-image:
           name: build-and-push-image-ecr
           registry-id: AWS_ECR_REGISTRY_ID
